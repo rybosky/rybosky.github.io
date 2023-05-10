@@ -30,10 +30,9 @@ body.lb-disable-scrolling {
 }
 
 .lightbox .lb-image {
-    height: 100vh !important;
-    margin: 0 ;
+    height: 100% !important;
     max-width: inherit;
-    object-fit: cover!important;
+    object-fit: contain!important;
     padding: 0;
     width: 100%!important;
 }
